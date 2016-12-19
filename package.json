@@ -1,0 +1,25 @@
+{
+  "name": "gc-completion-rates",
+  "version": "0.1.0",
+  "description": "A tiny app to show a plot of Google Classroom completion rates for my class.\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocah"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesbasinger/gc-completion.git"
+  },
+  "keywords": [
+    "education",
+    "google",
+    "classroom"
+  ],
+  "author": "Wes Basinger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wesbasinger/gc-completion/issues"
+  },
+  "homepage": "https://github.com/wesbasinger/gc-completion#readme",
+  "private": true
+}
