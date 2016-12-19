@@ -34,4 +34,14 @@ var trace2 = {
 
 var data = [trace1, trace2];
 
-Plotly.newPlot('plot-results', data);
+var layout = {
+  title: 'Assignment Completion Rates',
+  xaxis: {
+    title: 'Week Number'
+  },
+  yaxis: {
+    title: 'Percentage'
+  }
+};
+
+Plotly.newPlot('plot-results', data, layout);
