@@ -21,13 +21,15 @@ weeks.forEach(function(weekInt) {
 var trace1 = {
   x: weeks.slice(0,alg2Results.length),
   y: alg2Results,
-  type: 'line'
+  type: 'line',
+  name: "Algebra 2 Rates"
 };
 
 var trace2 = {
   x: weeks.slice(0,engResults.length),
   y: engResults,
-  type: 'line'
+  type: 'line',
+  name: "Engineering Rates"
 };
 
 var data = [trace1, trace2];
