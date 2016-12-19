@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "mocah",
-	"postinstall": "webpack",
+    "postinstall": "webpack",
     "start": "node app.js"
   },
   "repository": {
@@ -28,6 +28,7 @@
     "express": "^4.14.0",
     "lodash": "^4.17.2",
     "plotly.js": "^1.21.2",
-    "superagent": "^3.3.1"
+    "superagent": "^3.3.1",
+    "webpack": "^1.14.0"
   }
 }
